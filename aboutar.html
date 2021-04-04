@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="shortcut icon" type="image/jpg" href="assets/img/logo_size.jpg"/>
+  <title>العميد لتأسيس الشركات والأستشارات</title>
+
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrapar.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/wow/animate.css">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/font/all.min.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    .nav-item .submenu{ 
+      display: none;
+      background-color: #f1f1f1;
+      position: absolute;
+      left:100%; top:-7px;
+    }
+    .dropdown-menu{
+      z-index: 11000220200;
+    }
+    .nav-item .submenu-left{ 
+      right:100%; left:auto;
+    }
+    .dropdown-menu > li:hover{ background-color: #f1f1f1 }
+    .dropdown-menu > li:hover > .submenu{
+      display: block;
+    }
+    .dropdown-item{
+      font-size: .7rem!important;
+      text-align: right;
+      padding: 11px 5px!important;
+    }
+    .download{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      position: fixed;
+      right: -10px;
+      text-align: center;
+      top: 150px;
+      z-index: 123456789;
+      border: 1px solid black;
+      padding: 20px 10px;
+      cursor: pointer;
+    }
+    .tot{
+      display: none;
+    }
+    .down1{
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      position: fixed;
+      right: 0px;
+      text-align: center;
+      top: 300px;
+      z-index: 123456789;
+      border: 1px solid black;
+      padding: 20px 10px;
+      cursor: pointer;
+    }
+    .down2{
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      position: fixed;
+      right: 0px;
+      text-align: center;
+      top: 400px;
+      z-index: 123456789;
+      border: 1px solid black;
+      padding: 20px 10px;
+      cursor: pointer;
+    }
+    .down3{
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      position: fixed;
+      right: 0px;
+      text-align: center;
+      top: 500px;
+      z-index: 123456789;
+      border: 1px solid black;
+      padding: 20px 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-10 d-flex align-items-center justify-content-end">
+
+          <!-- <h1 class="logo mr-auto"><a href="index.html">ALAMEED</a></h1> -->
+          <a href="indexar.html" class="logo mr-auto"><img src="assets/img/photo_2021-02-13_13-48-36.jpg" alt="" class="img-fluid" width="200px" height="100%"></a>
+
+          <nav class="nav-menu d-none d-lg-block" style="display: rtl;">
+            <ul class="option ml-auto">
+             
+              
+              
+              
+              
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> عربي </a>
+                 <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html"> English </a></li>
+                  <li><a class="dropdown-item" href="#"> عربي </a></li>
+                 </ul>   
+              </li>
+              <li class="nav-item"> <a class="nav-link" href="faqar.html"> FAQ </a></li>
+              <li class="nav-item"> <a class="nav-link" href="contactar.php"> اتصل بنا </a> </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" data-toggle="dropdown">  خدماتنا  </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="servicesar.html"> جميع خدماتنا</a></li>
+                  <li><a class="dropdown-item"> إعداد الأعمال &raquo </a>
+                    <ul class="submenu dropdown-menu">
+                      <li><a class="dropdown-item" href="#mainland"> MAIN LAND </a></li>
+                      <li><a class="dropdown-item" href="#Zone"> المنطقة الحرة </a></li>
+                        <li><a class="dropdown-item" href=""> OFFSHORE </a></li>
+                    </li></ul>   
+                    <li><a class="dropdown-item"> خدمات PRO &raquo</a>
+                      <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="servicesar.html#Economic"> خدمات دبي الاقتصادية</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html#Identity"> خدمات رعاية الأعمال</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html#Amer"> آمر للخدمات</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html#Tasheel"> خدمات تسهيل</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html"> خدمات توجية</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html#Notary">خدمات الإمارات</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html#Health"> خدمات تطبيق اللياقة الطبية</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html#Health"> خدمات التأمين الطبي</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html#Health"> إصدار التأشيرة السياحية</a></li>
+                      </ul></li>
+                      <li><a class="dropdown-item"> خدمات رجال الأعمال &raquo </a>
+                        <ul class="submenu dropdown-menu">
+                            <li><a class="dropdown-item" href="servicesar.html"> Bank Assistance</a></li>
+                            <li><a class="dropdown-item" href="servicesar.html"> Offices Space</a></li>
+                            <li><a class="dropdown-item" href="servicesar.html"> Ejari Services </a></li>
+                        </ul>
+                      </li>
+                      <li><a class="dropdown-item"> خدمات أخرى &raquo</a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="servicesar.html"> تطوير الويب والتسويق الرقمي</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html"> خدمات تأجير السيارات</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html"> الترجمة القانونية</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html"> الاستشارات القانونية</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html"> المحاسبة ومسك الدفاتر</a></li>
+                          <li><a class="dropdown-item" href="servicesar.html"> دراسة الجدوى</a></li>
+                      </ul>
+                      </li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown  active"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> حول الشركة </a>
+                <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="aboutar.html"> صفحة الشركة </a></li>
+                 <li><a class="dropdown-item" href="#about"> رسالة الرئيس التنفيذي </a></li>
+                   <li><a class="dropdown-item" href="indexar.html#about"> لماذا الأمارات ؟ </a></li>
+                   <li><a class="dropdown-item" href="#Vision"> رؤيتنا </a></li>
+                   <li><a class="dropdown-item" href="#Mission"> مهمتنا </a></li>
+                   <li><a class="dropdown-item" href="#Values"> قيمنا </a></li>
+                   <li><a class="dropdown-item" href="#clients"> شركائنا </a></li>
+                </ul>   
+             </li>
+              <li class="nav-item "> <a class="nav-link" href="indexar.html"> الرئيسية </a> </li>
+              </ul>
+          </nav><!-- .nav-menu -->
+
+        </div>
+      </div>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/photo_2021-02-13_13-51-10.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="wow fadeInDown">مرحبا بك في العميد</h2>
+              <p id="typed1" class="wow fadeInUp text-light"></p>
+              <a href="#about" class="btn-get-started animated fadeInUp scrollto">آقرأ المزيد</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+<!-- carousel -->
+
+<div id="carouselExampleControls" class="carousel slide container pt-5  w-lg-50 mx-auto text-center" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/profile/Slide1.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide2.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide3.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide4.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide5.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide6.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide7.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide8.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide9.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide10.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide11.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide12.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide13.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/profile/Slide14.JPG" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- carousel -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-12 wow slideInRight">
+            <img src="assets/img/photo_2021-01-30_09-34-25.jpg" alt=""width="100%">
+          </div>
+          <div class="col-lg-7 col-12 wow slideInLeft">
+            <h2 class="text-right pt-2">رسالة الرئيس التنفيذى</h2>
+            <p class="text-right">
+              شركة العميد هي شركة تأسست بمهمة بناء صورة ذات سمعة طيبة كشركة رائدة في مجال الاستشارات الإدارية وإعداد الأعمال وتشكيل الشركات وخدمات رجال الأعمال و تخليص المستندات على أساس النزاهة والسرية ورضا العملاء.
+
+نحن نهدف إلى تحقيق وتقديم الاستشارات الإدارية في الوقت المناسب، ومهام مسح الوثائق، والحفاظ على خدماتنا المهنية وتكييفها مع الحاجة المتغيرة للعملاء مع التركيز بقوة على الجودة والسلامة.
+
+            </p>
+          </div>
+        </div>
+          <div class="row pt-1">
+            <div class="col-lg-12 col-12 pt-lg-4 wow slideInLeft">
+              
+              <p class="text-right">
+                بالإضافة إلى ذلك، نحن متحمسون لبناء مستقبل شركتنا ودعم مجتمعنا. نحن فخورون بالقول إننا تعاملنا مع العملاء من جميع أنحاء العالم مع مختلف الأنشطة سواء في القطاع الخاص أو القطاع العام. فريقنا ذو الخبرة واللغات يجلب الخبرة والكفاءة ويوحي بالشراكة القائمة على الثقة. 
+
+                في مثل هذه البيئة المعقدة، مع الكثير من القواعد واللوائح، ستضمن شركة العميد  تقديم أعلى مستويات الخدمة عالية الجودة لشركائنا. وسوف نفعل كل ما يلزم لفهم هيكل الشركة وديناميات لتكون قادرة على توفير الدعم المهني والتوجيه.
+                
+              </p>
+            </div>
+        </div>
+        <div class="row">
+          <div class=" col-lg-6 icon-box wow slideInLeft">
+            <img src="assets/img/pexels-photo-1.jpeg" alt="" width="100%">
+          </div>
+          <div class="col-lg-5 icon-box text-right" id="Vision">
+            <div class="icon"><i class="bx bx-atom"></i></div>
+            <h4 class="title wow slideInRight pt-lg-5"><a href="">رؤيتنا</a></h4>
+            <p class="description wow slideInLeft">لبناء إمبراطوريات تجارية مستدامة وناجحة في الإمارات العربية المتحدة.
+            </p>
+          </div>
+        </div>
+
+        <div class="row backgro">
+          <div class=" col-lg-5 icon-box text-right" id="Mission">
+            <div class="icon" ><i class="fas fa-cogs"></i></div>
+            <h4 class="title wow slideInLeft pt-lg-5"><a href="">مهمتنا</a></h4>
+            <p class="description wow slideInRight"> نصنع الفارق من خلال تقديم أعلى مستوى من الخدمات المهنية لعملائنا من خلال موظفينا المحترفين المتفانين للغاية.
+            </p>
+          </div>
+          <div class=" col-lg-6 icon-box wow slideInRight" id="Values">
+            <img src="assets/img/pexels-photo-3.jpeg" alt="" width="100%">
+          </div>
+        </div>
+        <div class="row">
+          <div class=" col-lg-6 icon-box wow slideInRight">
+            <img src="assets/img/pexels-photo-2.jpeg" alt="" width="100%">
+          </div>
+          <div class="col-lg-5 icon-box text-right">
+            <div class="icon"><i class="fas fa-map"></i></div>
+            <h4 class="title wow slideInLeft pt-lg-5"><a href="">:قيمنا
+            </a></h4>
+            <ul>
+              <li>
+                <span>الموثوقية</span>
+                <i class="fas fa-hand-point-left ic"></i>
+              </li>
+              <li>
+                <span>النزاهة</span>
+                <i class="fas fa-hand-point-left ic"></i>
+              </li>
+              <li>
+                <span>العميل في المركز</span>
+                <i class="fas fa-hand-point-left ic"></i>
+              </li>
+              <li>
+                <span>كفاءة</span>
+                <i class="fas fa-hand-point-left ic"></i>
+              </li>
+              <li>
+                <span>نهج ودود</span>
+                <i class="fas fa-hand-point-left ic"></i>
+              </li>
+              <li>
+                <span>استباقية</span>
+                <i class="fas fa-hand-point-left ic"></i>
+              </li>
+              <li>
+                <span>السرعة فى انجاز العمل </span>
+                <i class="fas fa-hand-point-left ic"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+  <div class="container">
+    <div class="section-title">
+      <h2>لماذا نحن .. ؟</h2><br>
+      </div>
+    <div class="row pt-5">
+      <div class="col-lg-4 col-12 text-center wow slideInLeft">
+        <div class="image py-4">
+          <img src="assets/img/Save.svg" alt="" width="100%">
+        </div>
+        <div>
+          <h4>
+            وفر الوقت والجهد
+          </h4>
+          <p>
+            إن بدء عمل تجاري جديد يستنزف الطاقة والوقت ، ستوفر عمليتنا البسيطة كليكما ، حتى تتمكن من تخصيص وقتك الموفر للقيام بجوانب أخرى من العمل تساهم في مزيد من النجاح.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 text-center">
+        <div class="image py-4">
+          <img src="assets/img/Startup.svg" alt="" width="100%">
+        </div>
+        <div>
+          <h4>
+            تجنب مشاكل بدء التشغيل
+          </h4>
+          <p>
+            يتطلب إنشاء شركة في دبي العديد من القرارات والإجراءات ، وسوف نكرس خبرتنا الواسعة في السوق لتجنب أي مشاكل أو عقبات قد تنشأ أثناء إنشاء شركتك.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 text-center wow slideInRight">
+        <div class="image py-4">
+          <img src="assets/img/Protect.svg" alt="" width="100%">
+        </div>
+        <div>
+          <h4>
+            حماية عملك
+          </h4>
+          <p>
+            لا تعرض نفسك للمخاطرة ، وحماية عملك من خلال اختيار الهيكل القانوني المناسب ، والحصول على التصاريح الصحيحة وتوقيع اتفاقيات إضافية ، لحماية أسهمك وأصولك وأرباحك.
+          </p>
+        </div>
+      </div>
+    </div>
+     <!-- Mainland -->
+     <div class="container pt-4"  style="direction: rtl;">
+      <div class="section-title" id="mainland">
+        <h2>وجهتك النهائية لتأسيس شركة في البر الرئيسي في دبي ،  العميد</h2><br>
+        </div>
+    <div class="row pt-4">
+      <div class="col-12 text-right">
+        <p><strong>إعداد شركة البر الرئيسي</strong>
+          بدون أي عقبات. نحن فريق من مستشاري الأعمال المؤهلين الموجودين هنا للاستماع إلى أساسياتك والتخطيط فيما يتعلق بتأسيس شركة في البر الرئيسي في دبي أو حول الإمارات العربية المتحدة أينما تريد لا تتردد في الاتصال إذا كنت بحاجة إلى مزيد من المعلومات. يسعدنا تحقيق حلمك في وقت قصير جدًا.</p></div>
+      <div class="row">
+        <div class="col-lg-6 col-12 text-right">
+          <h2>إعداد شركة البر الرئيسي في دبي الإمارات العربية المتحدة</h2>
+          <p>أصبحت دبي واحدة من أسرع المدن من حيث تأسيس الأعمال ونموها على مدى السنوات العديدة الماضية. دائرة التنمية الاقتصادية جعلت دائرة التنمية الاقتصادية في دبي عملية تأسيس الأعمال التجارية في دبي سهلة وسلسة للغاية. هناك نوعان من الأعمال التي يمكن للمرء أن يبدأها ، أي الأعمال التجارية في البر الرئيسي أو المنطقة الحرة. عندما يتعلق الأمر بالنمو والحرية ، فإن الأعمال التجارية في البر الرئيسي تطغى على أعمال المنطقة الحرة. بيزنس لينك الإمارات العربية المتحدة هي واحدة من الشركات الاستشارية المهنية التي تتمتع بسنوات من الخبرة في تقديم الدعم المتميز للسماح للمرء ببدء أعماله التجارية الخاصة في الإمارات العربية المتحدة.</p>
+        </div>
+        <div class="col-lg-6 col-12">
+          <img src="assets/img/photo_2021-02-06_14-27-46.jpg" alt="" width="100%">
+        </div>
+      </div>
+        </div>
+        <hr>
+        </div>
+        <div class="container pt-4">
+          <div class="row"  style="direction: rtl;">
+            <div class="section-title" id="Zone">
+              <h2>تأسيس شركة في المنطقة الحرة بدبي</h2><br>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 text-right">
+                  <p>تأسيس شركة في دبي Free ZPlanning حول إنشاء شركة المنطقة الحرة في دبي؟ تقدم دبي أكثر من 20 منطقة حرة ولديها بعض من أرقى المناطق الحرة في الإمارات العربية المتحدة. توفر المناطق الحرة في دبي وسائل راحة أعمال عالمية المستوى ، وخيارات مثل المكتب المرن ، وإعدادات المكاتب المرنة ، والبنية التحتية الرائعة ، والوصول إلى ممتلكات التملك الحر ، والخصوصية الكاملة للمستثمرين مع التزامات الإبلاغ المحدودة.
+                    يوفر تسجيل الشركات في دبي وخاصة المناطق الحرة الوصول إلى بنية تحتية رائعة واتصال قوي وقوى عاملة متعددة الجنسيات ونمط حياة عالمي. لا يوفر إعداد الأعمال في المنطقة الحرة بدبي إمكانيات إنشاء متعددة الأغراض فحسب ، بل له أيضًا التزامات ضريبية محدودة ويمكن للشركات الاستمتاع بنظام سياسة اقتصادية مفتوح. في Business Link ، نقدم خدمات إعداد أعمال ممتازة في جميع المناطق الحرة في دبي تقريبًا. فيما يلي أهم المناطق لإنشاء شركة منطقة حرة في Dubai.one
+                  </p>
+                </div>
+              </div>
+          </div>
+          <hr>
+        </div>
+        </div>
+
+    <!--  ==========Clients========-->
+    <section id="clients" class="wow fadeInUp">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-4">
+              <img src="assets/img/clients/client-1.png" alt="">
+            </div>
+            <div class="col-lg-2 col-4">
+              <img src="assets/img/clients/client-2.png" alt="">
+            </div>
+            <div class="col-lg-2 col-4">
+              <img src="assets/img/clients/client-3.png" alt="">
+            </div>
+            <div class="col-lg-2 col-4">
+              <img src="assets/img/clients/client-4.png" alt="">
+            </div>
+            <div class="col-lg-2 col-4">
+              <img src="assets/img/clients/client-5.png" alt="">
+            </div>
+            <div class="col-lg-2 col-4">
+              <img src="assets/img/clients/client-6.png" alt="">
+            </div>
+            <div class="col-lg-2 col-4">
+              <img src="assets/img/clients/client-7.png" alt="">
+            </div>
+            <div class="col-lg-2 col-4">
+              <img src="assets/img/clients/client-8.png" alt="">
+            </div>
+            <div class="col-lg-2 col-4">
+              <img src="assets/img/clients/client-9.png" alt="">
+            </div>
+            <div class="col-lg-2 col-4">
+              <img src="assets/img/Picture8.png" alt="">
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <!-- #clients -->
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts section-bg">
+        <div class="container-fluid">
+  
+          <div class="row counters">
+  
+            <div class="col-lg-3 col-6 text-center">
+              <div class="icon"><i class="fas fa-users"></i></div>
+              <span data-toggle="counter-up">232</span>
+              <p>عملاء</p>
+            </div>
+  
+            <div class="col-lg-3 col-6 text-center">
+              <div class="icon"><i class="fas fa-file"></i></div>
+              <span data-toggle="counter-up">521</span>
+              <p>المشاريع</p>
+            </div>
+  
+            <div class="col-lg-3 col-6 text-center">
+              <div class="icon"><i class="fas fa-stopwatch"></i></div>
+              <span data-toggle="counter-up">1,463</span>
+              <p>ساعات الدعم</p>
+            </div>
+  
+            <div class="col-lg-3 col-6 text-center">
+              <div class="icon"><i class="fas fa-award"></i></div>
+              <span data-toggle="counter-up">8</span>
+              <p>جوائز</p>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Counts Section -->
+
+      <!-- ====////////////========= -->
+  <div class="container-fluid"  style="direction: rtl;">
+      <div class="section-title">
+        <h2>ما هو .. ؟</h2><br>
+        </div>
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+
+        <div class="row">
+          <div class="col-lg-12 col-12 wow slideInLeft text-right">
+            <h3>تسهيل</h3>
+            <p>هي مراكز خدمة يتم إنشاؤها بالشراكة مع القطاع الخاص وذلك لتقديم خدمات وزارة الموارد البشرية والتوطين نيابة عنها على أن يكون تقديم هذه الخدمات في هذه المراكز طبقا للمواصفات ومعايير الخدمة الحكومية المتميزة التي تحددها الوزارة وتحت إشرافها ورقابتها من خلال إدارة مراكز الخدمة التي تقوم بدورها بالتأكد من استيفاء مراكز الخدمة للمواصفات الواردة في «دليل الترخيص » خلال فترة الترخيص واستيفائها فيما بعد للمواصفات الواردة في «دليل المواصفات الفنية » خلال فترة تجهيز المركز واستيفائها أخيرا للمواصفات الواردة في «دليل التشغيل » خلال فترة التشغيل
+              <br><b><i>الفئات المستهدفة من خدمات تسهيل:</i></b>
+              </p>
+              <ul>
+                <li>
+                  <span class="mr-2"><i class="fas fa-star"></i></span>أصحاب العمل
+                </li>
+                <li>
+                  <span class="mr-2"><i class="fas fa-star"></i></span>العمال
+                </li>
+              </ul>
+
+              <p><b><i>الخدمات التي يقدمها المركز للمتعاملين:</b></i><br>
+                يقوم المركز بتقديم خدمات وزارة الموارد البشرية والتوطين، إلى جانب مجموعة من الخدمات الهامة لعدد من الجهات الحكومية الاتحادية والمحلية تتجاوز 15 جهة
+                </p>
+          </div>
+        </div>
+        <hr>
+        <div class="row py-3 mx-1 wow slideInLeft">
+          <div class="col-lg-12 col-12 text-right">
+        <h3>تقييم</h3>
+          <p>هي خدمة مرخصة من قبل وزارة الموارد البشرية والتوطين بموجب شراكة مؤسساتية مع القطاع الخاص تقدم من خلالها خدماتها نيابة عن الوزارة وتحت إشرافها وبما يتوافق مع معايير برنامج الإمارات للخدمة الحكومية المتميزة. وتعمل وفق ضوابط ومعايير وإشراف الوزارة وبكوادر وطنية، وتخدم أصحاب العمل في القطاع الخاص، وتعنى تقييم بتقديم 4 خدمات رئيسية للمنشآت المسجلة لدى الوزارة وعددها نحو 350 ألف منشأة تستخدم نحو 5 ملايين عامل، وتهدف تقييم إلى خفض زمن الحصول على الخدمة ورفع جودتها لضمان سعادة المتعاملين وتعزيز استقرار سوق العمل
+        <br><b><i>فوائد التعاقد مع مزودي خدمة تقييم:</i></b>           
+          </p>
+          <ul style="width: 100%;">
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>ضمان الحصول على قاعدة بيانات دقيقة توفر معلومات عن المنشآت وفاعلية الرخص التجارية.
+            </li>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>الشراكة والمساعدة في تقديم الخدمات بكفاءة وفاعلية.
+            </li>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>ضمان تقديم الخدمات وفق معايير الخدمة الحكومية المتميزة.
+            </li>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>تأسيس شراكة مع أطراف الإنتاج بالشراكة مع القطاع الخاص.
+            </li>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>رفع كفاءة سوق العمل.
+            </li>
+          </ul>
+          <p><i><b> خدمات تقييم:</b></i></p>
+           <ul style="width: 100%;">
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>تقديم معلومات تقدير حجم العمل.
+              </li>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>تقديم المعلومات عن فاعلية الرخص التجارية.
+              </li>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>تقديم معلومات عن السكنات العمالية
+              </li>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>تقديم معلومات عن عقود المقاولة من الباطن
+              </li>
+            </ul>
+            <p><b><i><br>مسؤوليات مزودي خدمة تقييم:</i></b>
+            </p>
+            <ul style="width: 100%;">
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>ضمان تقديم الخدمات بكفاءة وفعالية وبناء على اتفاقية مستوى الخدمة.
+              </li>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>الالتزام بمعايير الخدمة وفقاً لبرنامج الامارات للخدمة الحكومية المتميزة.
+              </li>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>ضمان ربط مزودي الخدمة بأنظمة الوزارة.
+              </li>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>ضمان سرية المعلومات والبيانات.
+              </li>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>الالتزام بوضع نظام خاص لتقييم أداء المقيمين يستند على جودة الانتاجية والالتزام المهني والوظيفي من خلال غرفة العمليات.
+              </li>
+            </ul>
+            <p><b><i>فريق تقييم:</i></b></p>
+          <p>
+            هو عبارة عن فريق مكون من مقيميين اثنين من مواطنين الدولة، على أن يكون أحدهما حاصل على مؤهل جامعي ، والآخر على مؤهل ثانوية عامة للقيام بزيارات تقييمية وتم منحهم المسميات التالية: (مقييم رئيسي ، مقيم مساعد)
+              المقيم الرئيسي: هو موظف بالقطاع الخاص حاصل علي مؤهل جامعي أو ما يعادلة، ويخضع لقانون العمل يعهد إليه القيام بمهام تزويد الوزارة بالمعلومات الخاصة بالمنشآت التابعة للوزارة بناء علي توجيه وإشراف من مزود خدمة تقييم.
+              المقيم المساعد: هو موظف بالقطاع الخاص حاصل علي مؤهل ثانوية عامة ويخضع لقانون العمل يعهد إليه القيام بمهام تزويد الوزارة بالمعلومات الخاصة بالمنشآت التابعة للوزارة بناء علي توجيه وإشراف من مركز الخدمة تقييم
+          </p>
+        </div>
+        
+      </div>
+        <hr>
+        <div class="row wow slideInRight">
+          <div class="col-lg-6 col-12 text-right">
+            <h3>توجيه</h3>
+          <p>
+            هي مراكز خدمة مرخصة من قبل وزارة الموارد البشرية والتوطين تعمل وفق ضوابط ومعايير واشراف الوزارة وضمن هوية مرئية موحدة وكوادر وطنية في كافة إمارات الدولة، وتقدم هذه المراكز خدمات التوجيه العمالي لأصحاب العمل والعمال بما يضمن التوعية بالحقوق والواجبات لكلا طرفي الانتاج قبل بداية علاقة العمل لضمان استقرار سوق العمل من خلال التوجيه والتوعية بأحكام تنظيم علاقات العمل والقرارات الوزارية المنفذة له، وتسليم تصاريح وعقود العمل، وإصدار شهادة العمل للعمال، وتوزيع وإيصال مواد ونشرات التوعية لطرفي علاقة العمل وأية رسائل تخص سوق العمل، إلى جانب التعريف بثقافة مجتمع دولة الإمارات العربية المتحدة. كما يقوم المركز بتقديم خدمات تعزز قنوات التواصل بين أصحاب العمل والعمال مع الوزارة لضمان توصيل أية معلومات تخص كل فئة بشكل وقائي.
+            <b><i>    
+            الفئات المستهدفة من خدمات المركز
+            </i></b>
+          </p>
+          <ul>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>أصحاب العمل
+            </li>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>العمال
+            </li>
+          </ul>
+          <p><b><i>الخدمات التي يقدمها المركز للمتعاملين:</i></b></p>
+          <ul>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>توجيه وتوعية أصحاب العمل.
+            </li>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>توجيه وتوعية العمال
+            </li>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>تقديم خدمات تسليم تصاريح العمل وعقود العمل
+            </li>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>تقديم خدمات اصدار شهادة العمل للعمال.
+            </li>
+          </ul>
+          </div>
+          <hr>
+          <div class="col-lg-6 col-12 text-right">
+            <h3>تدبير</h3>
+          <p>
+            هي مراكز خدمة مرخصة من قبل وزارة الموارد البشرية والتوطين وتُعنى بتقديم خدمات متكاملة للراغبين في استقدام وتشغيل عمال الخدمة المساعدة وفق مواصفات و معايير الخدمة الحكومية المتميزة، وتخدم الأسر المواطنة والمقيمة وفق معايير وضوابط واشراف من الوزارة وبما يحقق راحة المتعاملين والحصول على أفضل خدمة، إلى جانب توفير عمالة مساعدة وفق متطلبات صاحب العمل وضمن الباقات المتوفرة بالمركز، إضافة إلى خدمات الجهات الأخرى ذات الصلة بإجراءات إقامة العمالة المساعدة في الدولة مثل خدمات الهوية والصحة،وتم تأسيس مفهوم" تدبير" بناءً على مبدأ الشراكة بين الحكومة والقطاع الخاص لتقديم الخدمات للمتعاملين وفق معايير عالية تراعي تحقيق السعادة وتتميز في مفهوم تقديم الخدمات مع مراعاة الانتشار الجغرافي لهذه المراكز تسهيلا على المتعاملين،. وتعمل هذه المراكز جميعًا وفق ضوابط وشروط ومعايير وإشراف مباشر من قبل الوزارة وضمن بيئة وهوية مرئية موحدة
+            <b><i>الفئات المستهدفة من خدمات تدبير:</i></b>
+          </p>
+          <ul>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>أصحاب عمال الخدمة المساعدة
+            </li>
+          </ul>
+          <p><b><i>الخدمات التي يقدمها المركز للمتعاملين:
+            باقات الخدمات التي تقدمها (تدبير) هي:
+          </i></b></p>
+          <ul>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>الباقة التقليدية خدمة استقدام عامل مساعد من خارج الدولة يسجل على ملف صاحب العمل ويقيم لديه خلال فترة التعاقد
+            </li>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>الباقة التجريبية خدمة توفير عامل مساعد مسجل على مركز تدبير للعمل لفترة تعاقدية ويسمح فيها بإنتقال العامل كعامل مقيم لدى صاحب العمل في حال موافقة الاطراف المعنية.
+            </li>
+            <li>
+              <span class="mr-2"><i class="fas fa-star"></i></span>الباقة المرنة خدمة توفير عامل مساعد مسجل على مركز الخدمة تدبير للعمل بنظام مرن حسب متطلبات صاحب العمل (ساعات، أيام، أسبوع، شهري، سنوي).
+            </li>
+          </ul>
+          <li>
+            <span class="mr-2"><i class="fas fa-star"></i></span>الباقة المؤقتة خدمة توفير عامل مساعد مسجل على مركز الخدمة تدبير للعمل لفترة تعاقدية.
+          </li>
+          </div>
+
+        </div>
+        <hr>
+        <div class="row py-3 mx-1 wow slideInLeft text-right">
+          <h3>توصيل </h3>
+          <p><b><i>لمحة عامة:</i></b></p><br>
+          <p>تحرص وزارة الموارد البشرية والتوطين على تقديم الخدمات التي ترتكز على الأفكار التطويرية والتكنولوجيا الحديثة في تعزيز تجارب المتعاملين وتوفير أفضل الخدمات المستقبلية لهم لتصلهم أينما كانوا بما يدعم توجهات دولة الإمارات العربية المتحدة، وتحقيق أهداف مئوية الإمارات 2071 . ومن هنا جاءت العلامة التجارية الجديدة " توصيل " التي أطلقتها وزارة الموارد البشرية والتوطين وتتيح حصول المتعامل على حزمة من خدمات الوزارة بسهولة ويسر، من خلال أسطول من المركبات المجهزة بأحدث التقنيات الإلكترونية والذكية، وتتميز بإمكاناتها المرنة في التحرك وفق الموقع والوقت اللذين يحددهما المتعامل، وتأتي هذه المبادرة في إطار شراكة مؤسسية بين الوزارة والقطاع الخاص الذي يدير الخدمة بكوادر وطنية وبإشراف الوزارة المباشر، وتمثل جيلًا متقدماً من خدمات التوصيل المبتكرة تحت الطلب التي تمثلها شركات عالمية مثل "أوبر" وغيرها</p>
+         </p>
+            <p>
+             <b><i>كوادر وطنية وخدمات متكاملة:</i></b> <br>
+             تساهم خدمة توصيل في خلق فرص عمل جديدة عبر غرس ثقافة التوظيف الذاتي لدى الموارد البشرية الوطنية وتشجيعهم على العمل في القطاع الخاص وخاصة الطلبة والمقيمين منهم في المناطق البعيدة الراغبين في عمل مرن، وتسهم هذه الخدمة في الوقت ذاته في تعزيز جهود الدولة لسهولة ممارسة الأعمال وجذب مزيد من الاستثمارات، من خلال التعاون بين الجهات الحكومية المختلفة وتقديم جميع الخدمات من خلال نافذة واحدة
+            </p>
+            <p>
+              <b><i>أسطول مجهز بأحدث التقنيات:</i></b><br>
+              تتضمن رحلة المتعامل في خدمة "توصيل" أربع خطوات سريعة تمكّنه من طلب الخدمة من خلال قنوات الاتصال عبر التطبيق الذكي أو من خلال الاتصال بمركز الاتصال، لتتحرك مركبة "توصيل" على الفور في التوقيت والموقع الذي يحدده المتعامل بوجود استشاري سعادة المتعاملين يساعده في إنجاز الخدمة المطلوبة. وقد تم ربط مركبات "توصيل" بالنظم الإلكترونية بالوزارة بالشكل الذي يضمن تقديم خدمة سريعة وسهلة لا سيما في المناطق
+            <br><b><i>الفئات المستهدفة:</i></b>
+            </p>
+            <ul>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>متعاملين وزارة الموارد البشرية والتوطين
+              </li>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>أصحاب العمل، مسؤولي العلاقات الحكومية، أو أفراد
+              </li>
+            <p><b><i>تقييم فوري لجودة الخدمات:</i></b><br>
+              وضعت الوزارة معايير لضمان جودة الخدمة المقدمة لمتعامليها من خلال"مؤشر السعادة" حيث تم تزويد المركبات بأجهزة لوحية ذكية تتيح للمتعامل تقييم مستوى الخدمة وتقديم ملاحظاته إلى جانب "نظام تقييم جودة الخدمات" حيث يقوم المتعامل بعد استخدامه لخدمة توصيل في انجاز معاملاته بالتقييم الفوري للخدمة عبر 3 محاور رئيسية هي الخدمة المقدمة والمركبة ومُقدم الخدمة، حيث ستنعكس نتائج التقييمات مباشرة من خلال التطبيق الذكي للوزارة والمتوفر عبر متجري أبل وجوجل
+            </p>
+            <p><b><i>"الخدمات التي تقدمها توصيل"</i></b></p>
+            <ul>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>تقدم مركبات أسطول " توصيل " مجموعة واسعة من خدمات وزارة الموارد البشرية والتوطين وتمثل بديلًا وخيارًا للمتعاملين في الاستفادة من هذه الخدمة لما تقدمه من مرونة.
+              </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="row  py-3 mx-1 wow slideInRight text-right">
+          <h3>توافق</h3>
+          <p>هي مراكز خدمة مرخصة من قبل وزارة الموارد البشرية والتوطين تعمل وفق ضوابط ومعايير وهوية مرئية موحدة وبإشراف الوزارة، وتخدم هذه المراكز أصحاب العمل والعمال العاملين في القطاع الخاص من خلال تقديم خدمات الشكاوي العمالية التي يرغب في تقديمها صاحب العمل أو العامل بما يضمن تقديم الخدمة في وقت أقصر وتعتبر المهمة الرئيسية لمراكز "توافق" هي السعي للوصول لتسوية ودية بين اطراف النزاع العمالي، برفع التوصيات للوازرة للاعتماد بعد بحث الطلب ولا تعتبر جهة اتخاذ قرار نهائي بشأن المنازعات الواردة إليها
+            <br><br><b><i>الجهات المقدمة للخدمة:</i></b><br><br>
+            وزارة الموارد البشرية والتوطين متمثلة بمركز الخدمة "توافق" بالتعاون مع دوائر المحاكم على مستوى الدولة. <br>
+            <b><i>الفئات المستهدفة:</i></b></p>
+            <ul>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>صاحب العمل
+              </li>
+              <li>
+                <span class="mr-2"><i class="fas fa-star"></i></span>العامل
+              </li>
+            </ul>
+            <p><i><b>الخدمات المقدمة</b></i><br><br>
+              تقدم مراكز الخدمة ( توافق ) خدمات مجانية تختص ببحث المنازعات العمالية بين العامل و صاحب العمل، كما تتيح للمتعاملين خدمة تسجيل الشكاوى العمالية من خلال قنوات التسجيل المتمثلة في خدمة الخط الساخن 80060، و الموقع الإلكتروني لوزارة الموارد البشرية والتوطين و التطبيقات الذكية، ثم تحويلها إلى مراكز الخدمة توافق حيث يتم تسوية النزاع أو إحالته إلى القضاء، وفق الإجراءات المتبعة بهذا الشأن
+            </p>
+              <p><b><i>متوسط وقت الانتظار ووقت تقديم الخدمة:</i></b></p>
+              <p>يبلغ وقت الانتظار من 3 إلى 10 دقائق قابلة للزيادة حسب معطيات بحث الشكوى وبما لا يتجاوز ساعة.</p>
+              <p><b><i>عدد اللغات المتوفرة في المركز:</i></b><br>
+                يتوفر 3 لغات اساسية للتعامل مع المتعاملين وتوفير مترجمين معتمدين لكافة اللغات الاخرى</p>
+        </div>
+        <hr>
+        <div class="row py-3 mx-1 wow slideInLeft text-right">
+          <h5><span class="text-info"> تصديق-</span><u><b>هل تبحث عن وظيفة في الإمارات العربية المتحدة أم أنك تخطط لجلب زوجتك إلى الإمارات؟ </u></b><br><br> الشيء الرئيسي هو أن تكون شهادتك مصدقة من بلد المنشأ. بالنسبة لأولئك الذين ليسوا على دراية بإجراءات التصديق ، قد تتحول هذه العملية إلى حالة من التحدي والتحدي. نتعهد بتقديم خدمات التصديق على المستندات الأجنبية في دبي ونضمن تلبية متطلباتك بأقل تكلفة ووقت. نحن نساعد أيضًا في مصادقة المستندات الشخصية والوثائق التجارية من وزارة الخارجية (وزارة الخارجية) ، ومحاكم دبي ، وكاتب العدل ، وغيرها من السلطات الحكومية.<i class="fas fa-hands-helping"></i></h5>
+        </div>
+
+      </div>
+    </div>
+  </div>
+<!-- ====///////////////========== -->
+    
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+
+        <div class="text-center wow slideInLeft">
+          <h3>أسس عملك اليوم</h3>
+          <p> نتأكد من حصولك على تأسيس سريع وسهل للشركة ، هل أنت مستعد لبدء عملك التجاري؟.</p>
+          <a class="cta-btn" href="contactar.php">اتصل بنا</a>
+        </div>
+
+    </section><!-- End Cta Section -->
+ 
+
+    
+
+  </main><!-- End #main -->
+<div class="download">
+  <div class="circle">
+    <h6>download</h6>
+    
+      <img src="assets/img/logo/dark_logo_transparent_background.png" alt="" width="100%">
+    
+  </div>
+</div>
+<div class="tot">
+  <a href="assets/img/Company Profile modified FINAL (2).pdf" download><div class="down1">download English</div></a>
+  <a href="assets/img/Company Profile modified FINAL (2).pdf" download><div class="down2">download Arabic</div></a>
+  <a href="assets/img/Company Profile modified FINAL (2).pdf" download><div class="down3">download both</div></a>
+</div>
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="row" style="direction: rtl;">
+
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4 class="text-right">روابط مفيدة</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-left"></i> <a href="indexar.html">الرئيسية</a></li>
+                  <li><i class="bx bx-chevron-left"></i> <a href="aboutar.html">حول الشركة</a></li>
+                  <li><i class="bx bx-chevron-left"></i> <a href="servicesar.html">خدماتنا</a></li>
+                  <li><i class="bx bx-chevron-left"></i> <a href="#">شروط الخدمة</a></li>
+                  <li><i class="bx bx-chevron-left"></i> <a href="#">سياسة الخصوصية</a></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4 class="text-right">خدماتنا</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-left"></i> <a href="servicesar.html">خدمات تأسيس الشركة</a></li>
+                  <li><i class="bx bx-chevron-left"></i> <a href="servicesar.html">الموارد البشرية والتوطين</a></li>
+                  <li><i class="bx bx-chevron-left"></i> <a href="servicesar.html">خدمات حكومية</a></li>
+                  <li><i class="bx bx-chevron-left"></i> <a href="servicesar.html">الخدمات المالية</a></li>
+                  <li><i class="bx bx-chevron-left"></i> <a href="servicesar.html">خدمات اخرى</a></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 col-md-6 footer-contact">
+                <h4 class="text-right">اتصل بنا</h4>
+                <span class="text-light">
+                  Port Said , Etihad Street , <br>
+                   Deira , Dubai – UAE <br><br>
+                  <strong>Phone:</strong> +971528346061<br>
+                  <strong>Email:</strong> info@al-ameed.com<br>
+                </span>
+
+              </div>
+
+              <div class="col-lg-3 col-md-6 footer-info">
+                <h4 class="text-right"> العميد</h4>
+                <p>جعل الحياة أسهل وخلق بيئة مواتية للنجاح</p>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+                <form action="" method="post">
+                  <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>ALAMEED</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/hidayah-free-simple-html-template-for-corporate/ -->
+        Designed by <a href="https://hds.ae/"><img src="assets/img/logo4-02 (2).png" alt="" width="40px"></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/wow/wow.min.js"></script>
+  <script src="assets/vendor/typed/typed.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+971528346061", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            button_color: "#428BCA", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+            order: "whatsapp", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+
+  <script>
+    var typed1 = new Typed('#typed1', {
+      strings: ['جعل الحياة أسهل ',' وخلق بيئة مواتية للنجاح. ',' دعونا نريكم ما يمكننا القيام به ..'],
+typeSpeed: 60,
+backSpeed: 20,
+// fadeOut: true,
+smartBackspace: true,
+loop: true
+});
+</script>
+<script>
+  $(document).on('click', '.dropdown-menu', function (e) {
+    e.stopPropagation();
+  });
+  
+  // make it as accordion for smaller screens
+  if ($(window).width() < 992) {
+    $('.dropdown-menu a').click(function(e){
+      e.preventDefault();
+        if($(this).next('.submenu').length){
+          $('.submenu').hide();
+          $(this).next('.submenu').toggle();
+        }
+        $('.dropdown').on('hide.bs.dropdown', function () {
+       $(this).find('.submenu').hide();
+    })
+    });
+  }
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".download").click(function(){
+        $(".tot").toggle();
+      });
+    });
+    </script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
